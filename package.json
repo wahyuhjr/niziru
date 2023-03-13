@@ -1,0 +1,13 @@
+{
+    "dependencies": {
+        "daisyui": "^2.50.1"
+    },
+    "devDependencies": {
+        "postcss": "^8.4.21",
+        "postcss-cli": "^10.1.0",
+        "tailwindcss-font-inter": "^3.0.1"
+    },
+    "scripts": {
+        "build": "postcss ./src/main.css -o ./public/main.css"
+    }
+}

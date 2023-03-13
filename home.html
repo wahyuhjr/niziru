@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cok: "#da373d",
+                        pink: "#FFA6CD",
+                        pinkwhite: "#FFF5F9",
+                        pinkbold: "#EF2D82",
+                        ping: "#F486B6",
+                        brown: "#965063",
+                        pinky: "#FFDEEB",
+                    },
+                },
+            },
+        };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Inter:wght@300&display=swap" rel="stylesheet" />
+    <style>
+        p span {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container-fluid w-full min-h-screen bg-cover bg-center overflow-hidden bg-pinkwhite relative" id="sec-1">
+        <!-- navbar -->
+        <nav class="md:bg-transparent px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <a href="https://niziru.com/" class="flex items-center">
+                    <img src="/logo.png" class="h-6 mr-3 sm:h-9" alt="niziru-logo" />
+                </a>
+                <div class="flex md:order-2">
+                    <button type="button" class="text-white bg-pinkbold hover:bg-pink font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0">
+              Buy $NZR
+            </button>
+                    <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-pink focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul class="flex flex-col p-2 mt-4 border border-gray-100 md:rounded-full md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium shadow-md shadow-gray-400 border-solid border-2 md:bg-pinkwhite bg-pink">
+                        <li class="p-2 hover:bg-pinkbold rounded-lg md:rounded-full">
+                            <a href="#" class="block py-0 pl-3 pr-4 text-white md:text-pinkbold rounded hover:bg-pink hover:bg-pinkbold hover:text-white md:hover:rounded-full md:p-0">home</a
+                >
+              </li>
+              <li class="p-2 hover:bg-pinkbold rounded-lg md:rounded-full">
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-white md:text-pinkbold rounded hover:bg-pink hover:bg-pinkbold hover:text-white md:hover:rounded-full md:p-0"
+                  >About</a
+                >
+              </li>
+              <li class="p-2 hover:bg-pinkbold rounded-lg md:rounded-full">
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-white md:text-pinkbold rounded hover:bg-pink hover:bg-pinkbold hover:text-white md:hover:rounded-full md:p-0"
+                  >Services</a
+                >
+              </li>
+              <li class="p-2 hover:bg-pinkbold rounded-lg md:rounded-full">
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-white md:text-pinkbold rounded hover:bg-pink hover:bg-pinkbold hover:text-white md:hover:rounded-full md:p-0"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- navbar -->
+
+        <div class="mt-20">
+            <img src=" /sakura.png " class="mx-auto md:w-48 md:h-48 w-34 h-28" />
+        </div>
+        <p class="md:text-lg text-center mx-auto mt-10 text-brown font-inter p-3 md:p-0">
+            Niziru means desire. Therefore, Niziru means someone who is tenacious and never gives up compared to others, and he always seeks perfection in what he wants.<br />Niziru is a community-build, Web3 and growth tools for "meme coin"
+        </p>
+        <!-- countdown -->
+        <div class="-mt-0 md:mt-20 flex justify-center">
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max p-5">
+                <div class="mx-auto flex items-center justify-center flex flex-col bg-pink rounded-2xl text-white md:w-20 md:h-20 md:p-7 lg:w-40 lg:h-40 w-20 h-20 border-ping border-2 border-solid shadow-lg shadow-rose-400">
+                    <span class="countdown font-inter lg:text-7xl text-4xl font-bold" id="days">
+              <h1 id="demo"></h1>
+            </span>
+                    <p class="lg:text-xl text-sm">Days</p>
+                </div>
+
+                <div class="mx-auto flex items-center justify-center flex flex-col bg-pink rounded-2xl text-white md:w-20 md:h-20 md:p-7 lg:w-40 lg:h-40 w-20 h-20 border-ping border-2 border-solid shadow-lg shadow-rose-400">
+                    <span class="countdown font-mono lg:text-7xl text-4xl font-bold" id="hours">
+              <h1 id="demo"></h1>
+            </span>
+                    <p class="lg:text-xl text-sm">Hours</p>
+                </div>
+                <div class="mx-auto flex items-center justify-center flex flex-col bg-pink rounded-2xl text-white md:w-20 md:h-20 md:p-7 lg:w-40 lg:h-40 w-20 h-20 border-ping border-2 border-solid shadow-lg shadow-rose-400">
+                    <span class="countdown font-mono lg:text-7xl text-4xl font-bold" id="minutes">
+              <h1 id="demo"></h1>
+            </span>
+                    <p class="lg:text-xl text-sm">Minutes</p>
+                </div>
+                <div class="mx-auto flex items-center justify-center flex flex-col bg-pink rounded-2xl text-white md:w-20 md:h-20 md:p-7 lg:w-40 lg:h-40 w-20 h-20 border-ping border-2 border-solid shadow-lg shadow-rose-400">
+                    <span class="countdown font-mono lg:text-7xl text-4xl font-bold" id="seconds">
+              <h1 id="seconds"></h1>
+            </span>
+                    <p class="lg:text-xl text-sm">Seconds</p>
+                </div>
+            </div>
+        </div>
+        <!-- countdown -->
+        <div class="flex items-end justify-end ">
+            <img src=" /sakura-2.png " class="mt-3 lg:w-full w-1/2 bg-cover absolute bottom -0  flex items center " />
+        </div>
+    </section>
+
+    <!-- About us -->
+    <section class="w-full min-h-screen bg-cover bg-center bg-pinkwhite"  id="sec-2 ">
+        <div class="md:grid md:grid-cols-2 lg:pt-32">
+            <div class="lg:flex lg:justify-end  lg:ml-40 lg:pt-10">
+                <img src=" /about.png " class=" md:w-full" />
+            </div>
+            <div class="py-1 lg:pt-72">
+                <h1 class="font-bold text-pinkbold md:text-4xl xl:text-6xl px-7 text-2xl ">
+                    About us
+                </h1>
+                <p class="text-brown md:w-3/4 px-6 py-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error temporibus tenetur in omnis rem quam vero possimus amet, dicta perspiciatis suscipit sint cumque laudantium atque nobis delectus minus nisi tempore.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About us-->
+
+    <!-- Tokenomics -->
+    <!-- <div
+      class="w-full h-screen bg-cover bg-center md:pt-96 -mt-56 " style="background-image: url('/section-3.png'); " id="">
+      <div class="md:grid md:grid-cols-4">
+        <div class="col-span-2">
+          <h1 class="text-4xl lg:text-6xl font-bold text-pinkbold flex items-center justify-center lg:mt-4">
+            Tokenomics
+          </h1>
+        </div>
+
+        <div class="">
+          <li
+            class="text-xl md:text-3xl font-bold text-pinkbold md:pt-0 pt-10 flex lg:justify-start justify-center">
+            $NZR
+          </li>
+          <li class="text-gray-500 flex lg:justify-start justify-center">Token Symbol</li>
+          <li
+            class="text-xl md:text-3xl font-bold text-pinkbold md:mt-20 flex lg:justify-start justify-center mt-10">
+            2% Usage Reward
+          </li>
+          <li class="text-gray-500 flex lg:justify-start text-center justify-center">
+            Thanks to User Transactions<br />(DEFI Wallets Only!)
+          </li>
+          <li
+            class="text-xl md:text-3xl font-bold text-pinkbold md:mt-20 flex lg:justify-start justify-center mt-10">
+            100 Quadrilion
+          </li>
+          <li class="text-gray-500 flex lg:justify-start justify-center">Total Suply</li>
+        </div>
+        <div class="">
+          <h1
+            class="text-xl md:text-3xl font-bold text-pinkbold md:pt-0 pt-10 flex lg:justify-start justify-center ">
+            200,000+
+          </h1>
+          <p class="text-gray-500 flex lg:justify-start justify-center">Holders</p>
+          <h1
+            class="text-xl md:text-3xl font-bold text-pinkbold md:mt-20 flex lg:justify-start justify-center mt-10">
+            $6,2 Millions
+          </h1>
+          <p class="text-gray-500 flex lg:justify-start justify-center">Market Cap</p>
+          <h1
+            class="text-xl md:text-3xl font-bold text-pinkbold md:mt-20 flex lg:justify-start justify-center mt-10">
+            $0.0000006
+          </h1>
+          <p class="text-gray-500 flex lg:justify-start justify-center">Current Price</p>
+        </div>
+      </div> -->
+    <!-- Tokenomics -->
+
+    <!-- Roadmap -->
+    <!-- <div class="w-full min-h-screen bg-cover bg-center bg-pinky" >
+        <div class="flex justify-center">
+          <h1 class="text-pinkbold flex justify-center text-6xl font-bold md:mt-40">Roadmap</h1>
+        </div>
+        <div class="md:grid md:grid-cols-4 gap-4 xl:gap-0 container mx-auto">
+          <div class="flex  flex justify-center pt-12 lg:mt-20 ">
+              <div class="block w-64 rounded-lg bg-white p-6 shadow-lg ">
+                  <h5 class="mb-2 text-md font-medium leading-tight text-pinkbold pb-5">Phase 1</h5>
+                    <div class="flex items-center">
+                      <img class="md:w-28 md:h-28 w-24 h-24 rounded-full mr-4 object-fit" src="/twt.png" alt="sosmed"/>
+                    </div>
+                     <div class="text mt-3">
+                      <p class="text-gray-900 font-bold text-3xl leading-none pt-5 pb-5">Niziru Coin</p>
+                      <p class="mb-4 text-base text-neutral-500">
+                     Token Launch on Uniswap
+                      Website Launch
+                      Marketing Campaign</p>
+                     </div>
+              </div>
+            </div>
+          <div class="flex  flex justify-center pt-12 lg:mt-20 ">
+              <div class="block w-64 rounded-lg bg-white p-6 shadow-lg ">
+                  <h5 class="mb-2 text-md font-medium leading-tight text-pinkbold pb-5">Phase 2</h5>
+                    <div class="flex items-center">
+                      <img class="md:w-28 md:h-28 w-24 h-24 rounded-full mr-4" src="/twt.png" alt="sosmed"/>
+                    </div>
+                     <div class="text mt-3">
+                      <p class="text-gray-900 font-bold text-3xl leading-none pt-5 pb-5">Niziru Coin</p>
+                      <p class="mb-4 text-base text-neutral-500">
+                     Token Launch on Uniswap
+                      Website Launch
+                      Marketing Campaign</p>
+                     </div>
+              </div>
+            </div>
+          <div class="flex  flex justify-center pt-12 lg:mt-20 ">
+              <div class="block w-64 rounded-lg bg-white p-6 shadow-lg ">
+                  <h5 class="mb-2 text-md font-medium leading-tight text-pinkbold pb-5">Phase 3</h5>
+                    <div class="flex items-center">
+                      <img class="md:w-28 md:h-28 w-24 h-24 rounded-full mr-4" src="/twt.png" alt="sosmed"/>
+                    </div>
+                     <div class="text mt-3">
+                      <p class="text-gray-900 font-bold text-3xl leading-none pt-5 pb-5">Niziru Coin</p>
+                      <p class="mb-4 text-base text-neutral-500">
+                     Token Launch on Uniswap
+                      Website Launch
+                      Marketing Campaign</p>
+                     </div>
+              </div>
+            </div>
+          <div class="flex  flex justify-center pt-12 lg:mt-20 ">
+              <div class="block w-64 rounded-lg bg-white p-6 shadow-lg ">
+                  <h5 class="mb-2 text-md font-medium leading-tight text-pinkbold pb-5">Phase 4</h5>
+                    <div class="flex items-center">
+                      <img class="md:w-28 md:h-28 w-24 h-24 rounded-full mr-4" src="/twt.png" alt="sosmed"/>
+                    </div>
+                     <div class="text mt-3">
+                      <p class="text-gray-900 font-bold text-3xl leading-none pt-5 pb-5">Niziru Coin</p>
+                      <p class="mb-4 text-base text-neutral-500">
+                     Token Launch on Uniswap
+                      Website Launch
+                      Marketing Campaign</p>
+                     </div>
+              </div>
+            </div>
+            
+        </div>
+      </div> -->
+    <!-- Roadmap -->
+
+    <!-- footer -->
+    <!-- card -->
+    <!-- <div class="w-full min-h-screen bg-cover bg-center bg-pinky">
+        <div class="lg:grid lg:grid-cols-3 container mx-auto">
+          <div class="1">
+            <div class="lg:flex lg:justify-end flex justify-center pt-12 lg:mt-72 lg:-ml-56">
+              <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg ">
+                  <h5 class="mb-2 text-md font-medium leading-tight text-pinkbold">Twitter</h5>
+                    <div class="flex items-center">
+                      <img class="w-10 h-10 rounded-full mr-4" src="/twt.png" alt="sosmed"/>
+                      <div class="text-sm">
+                        <p class="text-gray-900 font-bold text-3xl leading-none">Niziru Coin</p>
+                        <p class="text-gray-600">@nizirucoin</p>
+                      </div>
+                    </div>
+                  <p class="mb-4 text-base text-neutral-500">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                <div class="flex items-center">
+                    <div class="number">
+                      <h2 class="text-pink font-bold text-3xl">650K</h2>
+                      <p class="text-pink  text-sm">Followers</p>
+                    </div>
+                  <button type="button" class="bg-pinkbold rounded-full px-3 py-2 text-center  text-sm hover:bg-pink text-white inline-flex items-center space-x-4 ml-auto">Follow</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="2">
+            <div class="lg:flex lg:justify-center flex justify-center pt-12 lg:mt-72 ">
+          <div class="block max-w-sm rounded-lg bg-white p-6 shadow-lg ">
+            <h5 class="mb-2 text-md font-medium leading-tight text-pinkbold">Telegram</h5>
+             <div class="flex items-center">
+            <img class="w-10 h-10 rounded-full mr-4" src="/tele.png" alt="sosmed"
+            />
+            <div class="text-sm">
+              <p class="text-gray-900 font-bold text-3xl leading-none">Niziru Coin</p>
+              <p class="text-gray-600">@nizirucoin</p>
+            </div>
+          </div>
+            <p class="mb-4 text-base text-neutral-500">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.</p>
+              <div class="flex items-center">
+                <div class="number">
+                  <h2 class="text-pink font-bold text-3xl">650K</h2>
+                  <p class="text-pink  text-sm">Followers</p>
+                </div>
+            <button type="button" class="bg-pinkbold rounded-full px-3 py-2 text-center  text-sm hover:bg-pink text-white inline-flex items-center space-x-4 ml-auto">Follow</button>
+              </div>
+          </div>
+           </div>
+          </div>
+
+          <div class="3">
+            <div class="text-pinkbold text-7xl font-bold lg:flex lg:justify-start flex justify-center pt-12 lg:mt-72 ">
+              Join Our<br>Comunity
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <img src=" /footer-sakura.png " class="" />
+        </div>
+      </div> -->
+    <!-- card -->
+    <!-- footer -->
+</body>
+<script src="Countdowns.js "></script>
+
+</html>
