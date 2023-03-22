@@ -1,79 +1,13 @@
-<!doctype html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        cok: '#da373d',
-                        pink: '#FFA6CD',
-                        ping: '#F486B6',
-                        brown: '#965063',
-                    }
-                }
-
-            }
-
-        }
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Inter:wght@300&display=swap" rel="stylesheet">
-    <style>
-        p span {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
-</head>
-
-<body>
-    <div class=" h-screen bg-cover object-fit bg-no-repeat " style="background-image: url('/bg-cd.png'); ">
-        <!-- <img src="/countdown.png" class="w-full object-contain">  -->
-        <img src="/logo.png" class="mx-auto pt-14 w-34 h-28">
-        <img src=" /sakura.png " class="mx-auto mt-3 md:mt-10 md:w-48 md:h-48 w-34 h-28 ">
-        <p class="md:text-lg text-center mx-auto mt-10 text-brown font-inter p-3 md:p-0">Niziru means desire. Therefore, Niziru means someone who is tenacious and never gives up compared to others, and he always seeks perfection in what he wants.<br/>Niziru is a community-build, Web3 and growth tools for "meme coin"</p>
-        <!-- countdown -->
-        <div class="mt-20 flex justify-center ">
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max ">
-                <div class="mx-auto flex items-center justify-center flex flex-col  bg-pink rounded-box text-white md:p-7 md:w-40 md:h-40 w-20 h-20 border-ping border-2 border-solid  shadow-lg shadow-rose-400">
-                    <span class="countdown font-inter md:text-7xl text-4xl font-bold" id="days">
-                        <h1 id="demo"></h1>
-                    </span>
-                    <p class="md:text-xl text-sm">Days</p>
-                </div>
-
-                <div class="mx-auto flex items-center justify-center flex flex-col bg-pink rounded-box text-white md:p-7 md:w-40 md:h-40 w-20 h-20 border-ping border-2 border-solid shadow-lg shadow-rose-400">
-                    <span class="countdown font-mono md:text-7xl text-4xl font-bold" id="hours">
-                        <h1 id="demo"></h1>
-                    </span>
-                    <p class="md:text-xl text-sm">Hours</p>
-                </div>
-                <div class="mx-auto flex items-center justify-center flex flex-col  bg-pink rounded-box text-white md:p-7 md:w-40 md:h-40 w-20 h-20 border-ping border-2 border-solid shadow-lg shadow-rose-400">
-                    <span class="countdown font-mono md:text-7xl text-4xl font-bold" id="minutes">
-                        <h1 id="demo"></h1>
-                    </span>
-                    <p class="md:text-xl text-sm">Minutes</p>
-                </div>
-                <div class="mx-auto flex items-center justify-center flex flex-col  bg-pink rounded-box text-white md:p-7 md:w-40 md:h-40 w-20 h-20 border-ping border-2 border-solid shadow-lg shadow-rose-400">
-                    <span class="countdown font-mono md:text-7xl text-4xl font-bold" id="seconds">
-                    <h1 id="seconds"></h1>
-                    </span>
-                    <p class="md:text-xl text-sm">Seconds</p>
-                </div>
-            </div>
-        </div>
-        <!-- countdown -->
-
-    </div>
-
-</body>
-<script src="Countdowns.js"></script>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niziru Project</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
