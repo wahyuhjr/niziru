@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import logo_dark from "../assets/logo_dark.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 
-const Home = () => {
+const Header = () => {
     const navMenu = [
         { name: "Home", current: true, url: "home" },
         { name: "About Us", current: false, url: "aboutus" },
@@ -53,13 +53,13 @@ const Home = () => {
         );
       });
   return (
-    <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="home">
+    <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="header">
         <nav className={`md:bg-transparent px-2 sm:px-4 py-2.5 w-full z-20 fixed mt-5 `}>
           <div className="container flex flex-wrap items-center justify-between">
             <a href="https://niziru.com/" className="flex items-center ml-8">
               <img src={logo_dark} className="h-12" alt="niziru-logo" />
             </a>
-            <div className="flex md:order-2 -mr-44">
+            <div className="flex md:order-2 ">
               <button type="button" className="text-white bg-pink-600 hover:bg-pink-400 font-medium text-xl rounded-full px-5 py-2.5 text-center md:mr-0">
                 Buy $NZR
               </button>
@@ -187,4 +187,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Header
