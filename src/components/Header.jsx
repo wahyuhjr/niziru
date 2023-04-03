@@ -4,6 +4,8 @@ import sakura2 from "../assets/sakura-2.png";
 import { useState, useEffect } from 'react';
 import logo_dark from "../assets/logo_dark.png"
 import { Link, animateScroll as scroll } from "react-scroll";
+import {Routes, Route, useNavigate} from 'react-router-dom';
+import ErrorPage from '../pages/Error'
 
 const Header = () => {
     const navMenu = [
@@ -52,6 +54,12 @@ const Header = () => {
           </span>
         );
       });
+
+      const navigate = useNavigate();
+      const navigateBuy = () => {
+        navigate('/Error')
+      }
+
   return (
     <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="header">
         <nav className={`md:bg-transparent px-2 sm:px-4 py-2.5 w-full z-20 fixed mt-5 `}>
@@ -60,7 +68,7 @@ const Header = () => {
               <img src={logo_dark} className="h-12" alt="niziru-logo" />
             </a>
             <div className="flex md:order-2 ">
-              <button type="button" className="text-white bg-pink-600 hover:bg-pink-400 font-medium text-xl rounded-full px-5 py-2.5 text-center md:mr-0">
+              <button onClick={navigateBuy} type="button" className="text-white bg-pink-600 hover:bg-pink-400 font-medium text-xl rounded-full px-5 py-2.5 text-center md:mr-0">
                 Buy $NZR
               </button>
               <button
