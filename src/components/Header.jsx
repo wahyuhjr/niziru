@@ -61,7 +61,10 @@ const Header = () => {
       }
 
   return (
-    <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="header">
+
+    <div className="container">
+      <div className="row">
+      <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="header">
         <nav className={`md:bg-transparent px-2 sm:px-4 py-2.5 w-full z-20 fixed mt-5 `}>
           <div className="container flex flex-wrap items-center justify-between">
             <a href="https://niziru.com/" className="flex items-center ml-8">
@@ -82,8 +85,8 @@ const Header = () => {
                   <path
                     fill-rule="evenodd"
                     d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                    clip-rule="evenodd"
-                  ></path>
+                    clip-rule="evenodd">
+                  </path>
                 </svg>
               </button>
             </div>
@@ -120,7 +123,7 @@ const Header = () => {
         <div className="mt-48">
           <img src={sakura} className="mx-auto mb-20" />
         </div>
-        <p className="text-center mx-auto mt-10 text-black text-opacity-50 p-3 md:p-0 font-inter text-2xl leading-7 lg:text-xl lg:leading-28">
+        <p className="grid columns-12 text-center mx-auto mt-10 text-black text-opacity-50 p-3 md:p-0 font-inter text-2xl leading-7 lg:text-xl lg:leading-28">
           Niziru means desire. Therefore, Niziru means someone who is tenacious
           and never gives up
           <br />
@@ -192,6 +195,9 @@ const Header = () => {
           />
         </div>
       </div>
+      </div>
+    </div>
+    
   )
 }
 
