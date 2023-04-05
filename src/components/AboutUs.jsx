@@ -1,6 +1,6 @@
 import React from 'react'
 
-import aboutpng from "../assets/about.png";
+import aboutpng from "../assets/About/about.png";
 
 const AboutUs = () => {
     const aboutUsText = [

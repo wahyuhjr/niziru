@@ -1,8 +1,8 @@
 import React from 'react'
-import sakura from "../assets/sakura.png";
-import sakura2 from "../assets/sakura-2.png";
+import sakura from "../assets/Header/sakura.png";
+import sakura2 from "../assets/Header/sakura-2.png";
 import { useState, useEffect } from 'react';
-import logo_dark from "../assets/logo_dark.png"
+import logo_dark from "../assets/Header/logo_dark.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 import {Routes, Route, useNavigate} from 'react-router-dom';
 import ErrorPage from '../pages/Error'
@@ -64,8 +64,8 @@ const Header = () => {
 
     <div className="container">
       <div className="row">
-      <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="header">
-        <nav className={`md:bg-transparent px-2 sm:px-4 py-2.5 w-full z-20 fixed mt-5 `}>
+        <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="header">
+         <nav className={`md:bg-transparent px-2 sm:px-4 py-2.5 w-full z-20 fixed mt-5 `}>
           <div className="container flex flex-wrap items-center justify-between">
             <a href="https://niziru.com/" className="flex items-center ml-8">
               <img src={logo_dark} className="h-12" alt="niziru-logo" />

@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-import phase1png from "../assets/phase_1.png";
-import phase2png from "../assets/phase_2.png";
-import phase3png from "../assets/phase_3.png";
-import phase4png from "../assets/phase_4.png"; 
+import phase1png from "../assets/Roadmap/phase_1.png";
+import phase2png from "../assets/Roadmap/phase_2.png";
+import phase3png from "../assets/Roadmap/phase_3.png";
+import phase4png from "../assets/Roadmap/phase_4.png"; 
 
 const Roadmap = () => {
   return (
