@@ -5,6 +5,7 @@ import phase1png from "../assets/Roadmap/phase_1.png";
 import phase2png from "../assets/Roadmap/phase_2.png";
 import phase3png from "../assets/Roadmap/phase_3.png";
 import phase4png from "../assets/Roadmap/phase_4.png"; 
+import RoadmapComponent from './Common/RoadmapComponent';
 
 const Roadmap = () => {
   return (
@@ -19,8 +20,8 @@ const Roadmap = () => {
           </div>
         </div>
         <div className="md:grid md:grid-flow-col auto-cols-max gap-x-7 px-10 lg:justify-center mt-28 mb-72 text-xs ">
-        <div className="flex flex-col w-full md:w-72 p-6 mx-auto max-w-lg text-center text-gray-900 bg-gray-100 rounded-xl border border-gray-100 shadow-lg shadow-pink-600  xl:p-8 mt-3">
-            <h3 className="mb-6 text-xl font-inter font-bold text-left text-pink-600">
+        <RoadmapComponent>
+        <h3 className="mb-6 text-xl font-inter font-bold text-left text-pink-600">
               Phase 1
             </h3>
             <img src={phase1png} className=" w-1/3" />
@@ -108,7 +109,8 @@ const Roadmap = () => {
                 </span>
               </li>
             </ul>
-          </div>
+        </RoadmapComponent>
+
           <div className="flex flex-col w-full md:w-72 p-6 mx-auto max-w-lg text-center text-gray-900 bg-gray-100 rounded-xl border border-gray-100 shadow-lg  xl:p-8 mt-3">
             <h3 className="mb-6 text-xl font-inter font-bold text-left text-pink-600">
               Phase 2

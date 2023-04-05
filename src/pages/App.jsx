@@ -3,8 +3,8 @@ import Community from "../components/Community";
 import Roadmap from "../components/Roadmap";
 import Tokenomics from "../components/Tokenomics";
 import AboutUs from "../components/AboutUs";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../components/Layout/Header";
+import Footer from "../components/Layout/Footer";
 
 function App() {
   

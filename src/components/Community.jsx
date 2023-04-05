@@ -1,7 +1,7 @@
 import React from 'react'
-
 import twitterava from "../assets/twitterava.png"
 import telegramava from "../assets/telegramava.png";
+
 const Community = () => {
   return (
     <div class={`w-full bg-right-bottom bg-no-repeat bg-auto overflow-hidden bg-gradient-to-b from-pink-100 via-Pinkss to-Grad `} id="community">

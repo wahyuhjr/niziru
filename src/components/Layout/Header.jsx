@@ -1,11 +1,11 @@
 import React from 'react'
-import sakura from "../assets/Header/sakura.png";
-import sakura2 from "../assets/Header/sakura-2.png";
+import sakura from "../../assets/Header/sakura.png";
+import sakura2 from "../../assets/Header/sakura-2.png";
 import { useState, useEffect } from 'react';
-import logo_dark from "../assets/Header/logo_dark.png"
+import logo_dark from "../../assets/Header/logo_dark.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 import {Routes, Route, useNavigate} from 'react-router-dom';
-import ErrorPage from '../pages/Error'
+import ErrorPage from '../../pages/Error'
 
 const Header = () => {
     const navMenu = [
