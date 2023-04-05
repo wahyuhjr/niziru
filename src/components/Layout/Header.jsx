@@ -62,15 +62,13 @@ const Header = () => {
 
   return (
 
-    <div className="container">
-      <div className="row">
         <div className="w-full bg-cover bg-center overflow-hidden bg-gradient-to-t from-pink-50 scroll-smooth" id="header">
          <nav className={`md:bg-transparent px-2 sm:px-4 py-2.5 w-full z-20 fixed mt-5 `}>
           <div className="container flex flex-wrap items-center justify-between">
             <a href="https://niziru.com/" className="flex items-center ml-8">
               <img src={logo_dark} className="h-12" alt="niziru-logo" />
             </a>
-            <div className="flex md:order-2 ">
+            <div className="flex md:order-2 lg:-mr-44">
               <button onClick={navigateBuy} type="button" className="text-white bg-pink-600 hover:bg-pink-400 font-medium text-xl rounded-full px-5 py-2.5 text-center md:mr-0">
                 Buy $NZR
               </button>
@@ -195,9 +193,6 @@ const Header = () => {
           />
         </div>
       </div>
-      </div>
-    </div>
-    
   )
 }
 
