@@ -68,7 +68,7 @@ const Header = () => {
             <a href="https://niziru.com/" className="flex items-center ml-8">
               <img src={logo_dark} className="h-12" alt="niziru-logo" />
             </a>
-            <div className="flex md:order-2 lg:-mr-44">
+            <div className="flex md:order-2">
               <button onClick={navigateBuy} type="button" className="text-white bg-pink-600 hover:bg-pink-400 font-medium text-xl rounded-full px-5 py-2.5 text-center md:mr-0">
                 Buy $NZR
               </button>
